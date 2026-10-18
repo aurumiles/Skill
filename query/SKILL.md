@@ -48,4 +48,3 @@ Non chiederlo sempre. Se la risposta era una riga presa da una pagina sola, non 
 | Rispondere senza `[[collegamenti]]` | Nessuno può verificarti |
 | Salvare ogni risposta | La wiki si riempie di doppioni e smette di servire |
 | Salvare una pagina senza linkarla da nessuna parte | L'hai scritta per nessuno |
-<!-- prova -->
