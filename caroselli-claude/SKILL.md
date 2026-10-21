@@ -55,3 +55,6 @@ Nessuno spiega le slide: non c'è una persona che parla, come nelle lezioni del 
 - **Caption con emoji come i reel** (🥊 gancio, 🧪 📍 ⚠️ 🛡️ per i paragrafi, 🗡️ slogan, 📌 CTA, come in `Reel fatti/` e nel #12): file `caption_<titolo>.txt`, testo e poi hashtag (max 5).
 - **Testo alternativo per l'accessibilità**: file `accessibilita_<titolo>.txt` con una descrizione per ogni slide, scritta per chi non vede (colori, immagini, ogni testo riportato per intero, grafici e icone descritti), sotto i 420 caratteri ciascuna, da copiare nel campo «Testo alternativo» di ogni immagine. Instagram oggi accetta fino a circa 1.000 caratteri (l'indicazione storica era 100).
 - **Cartella:** il carosello nasce in `Caroselli elaborati/AAMMGG_Titolo/`; quando Davide lo pubblica si sposta in `Caroselli pubblicati/` e il nome prende **la data di pubblicazione**. Aggiorna `OUT` dello script (`script/carosello_NN.py`), il backlog e `log.md`. (Per i caroselli non esiste una cartella «fatti»: l'equivalente di `Reel fatti/` è `Caroselli pubblicati/`.)
+
+## Lingua (regola di Davide, 21 ott 2026)
+Mai «a tutta» o altre frasi gergali incomplete nelle slide, nei caroselli e nelle caption: scrivere «al massimo», «alla massima velocità». Controllare prima di consegnare. Vedi `memoria/wiki/italiano-corretto-no-a-tutta.md`.

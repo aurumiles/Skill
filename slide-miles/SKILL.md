@@ -22,3 +22,6 @@ Leggi prima `memoria/wiki/slide-kit.md` (look, componenti, ricetta) e `memoria/w
 - L'epico poggia su una scena, un numero o una sua frase vera. Non inventare fatti su di lui: la cronologia corretta è in `memoria/wiki/davide-materiale-corso.md`.
 - Caroselli: tema `carosello` (oro `#D8AF54`, Anton) finché Davide non decide di passare al rosso; 1080x1350.
 - Python 3.9: niente backslash nelle espressioni delle f-string.
+
+## Lingua (regola di Davide, 21 ott 2026)
+Mai «a tutta» o altre frasi gergali incomplete nelle slide e nei testi: scrivere «al massimo», «alla massima velocità». Controllare prima di consegnare. Vedi `memoria/wiki/italiano-corretto-no-a-tutta.md`.
