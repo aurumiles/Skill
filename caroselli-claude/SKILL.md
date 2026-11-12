@@ -58,3 +58,5 @@ Nessuno spiega le slide: non c'è una persona che parla, come nelle lezioni del 
 
 ## Lingua (regola di Davide, 21 ott 2026)
 Mai «a tutta» o altre frasi gergali incomplete nelle slide, nei caroselli e nelle caption: scrivere «al massimo», «alla massima velocità». Controllare prima di consegnare. Vedi `memoria/wiki/italiano-corretto-no-a-tutta.md`.
+
+- **Icona di salvataggio (slide di chiusura):** il bordo alto del segnalibro sta sulla stessa linea del bordo alto delle maiuscole di «SALVALO» (non del riquadro di testo). Nel kit è `margin-top:9px` in `c_cta`; si controlla misurando i pixel rossi (stessa riga di partenza per icona e prima parola). Detto da Davide il 12 nov 2026.
