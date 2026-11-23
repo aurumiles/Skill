@@ -11,7 +11,8 @@ Questa skill è il **metodo**. I **gusti** di Davide (colori, font, posizioni, c
 1. Leggi `memoria/wiki/stile-montaggio-reel.md` (i gusti, con date) e le «Aperto» in fondo a ogni sezione: sono domande da fare.
 2. Leggi `memoria/wiki/come-lavoriamo.md` (sezione reel) e `memoria/wiki/fratture-del-video.md` (gancio, prima immagine, chiusura).
 3. Il video sta in una cartella `Video e editing/` dentro la cartella del reel. **Lavora solo lì** (Davide la crea apposta; la sessione si sposta in quella cartella, con il suo ok). Crea `originali` (sola lettura), `lavoro`, `consegna` e `lavoro/stato.md`.
-4. I prompt del corso GabrySolution sono in `prompt/montaggio-reel-1-reel-base.md` e `prompt/montaggio-reel-2-broll-grafiche-musica.md` (testo originale, non modificarli). Seguili passo per passo, con le loro domande una alla volta; i valori dello stile vengono dalla pagina di stile.
+4. **Strumenti condivisi** in `/Users/davidemilesi/montaggio-strumenti/` (fuori dalle cartelle dei reel, per non ripesare 1,5 GB a ogni video): `modelli/` (trascrizione `ggml-large-v3-turbo.bin` e RNNoise `sh.rnnn`), `font/` (Anton, Inter), `playwright/` (libreria per le grafiche). Nel reel nuovo non si riscaricano: si collegano con `ln -s /Users/davidemilesi/montaggio-strumenti/modelli lavoro/modelli`, lo stesso per `font`, e `ln -s /Users/davidemilesi/montaggio-strumenti/playwright/node_modules lavoro/grafiche/node_modules` (con `package.json` copiato in `lavoro/grafiche`). Se il sistema chiede un ok per leggere quella cartella, spiegalo a Davide. Se mancano, avvisalo prima di scaricare.
+5. I prompt del corso GabrySolution sono in `prompt/montaggio-reel-1-reel-base.md` e `prompt/montaggio-reel-2-broll-grafiche-musica.md` (testo originale, non modificarli). Seguili passo per passo, con le loro domande una alla volta; i valori dello stile vengono dalla pagina di stile.
 
 ## Il flusso (script in `script/montaggio-reel/`, da copiare in `lavoro/` e adattare)
 1. **Strumenti**: `ffmpeg-full` (`/opt/homebrew/opt/ffmpeg-full/bin/ffmpeg`), whisper.cpp con modello `large-v3-turbo`, RNNoise `sh.rnnn`, OpenCV, `playwright-core` con il Chrome già installato. Dire cosa pesano e aspettare l'ok prima di installare o scaricare.
@@ -34,6 +35,9 @@ Questa skill è il **metodo**. I **gusti** di Davide (colori, font, posizioni, c
 
 ## Consegna
 `<titolo>_completo.mp4` in `consegna`, più `testi.md`, `fonti-immagini.txt`, `effetti-sonori.md` (e `fonti-musica.txt` se c'è musica). Tieni le versioni precedenti. Di' sempre cosa hai misurato e cosa deve controllare Davide (guardare dal telefono, ascoltare in cuffia), con il secondo preciso quando qualcosa non torna.
+
+## Pulizia a reel finito (solo dopo l'ok di Davide, mai prima)
+Si cancellano per percorso preciso (senza asterischi) i file rigenerabili: i fotogrammi di `lavoro/grafiche/scene` e `gancio`, gli audio intermedi in `lavoro/audio-mix` (si tengono `voce.wav`, `sfx.wav`, il mix finale e i `.json`), i video intermedi (si tiene il video senza sottotitoli con le grafiche). **Non si toccano mai** `originali/` e `consegna/`. Dire a Davide cosa è stato liberato. Prima volta: 23 nov 2026, ~684 MB liberati.
 
 ## Dopo il lavoro
 Se Davide dà un'indicazione nuova di gusto, **aggiorna `memoria/wiki/stile-montaggio-reel.md`** (valore, data, perché) e una riga in `memoria/wiki/log.md`. Se scopri una trappola nuova, aggiungila qui sopra. Non rendere questa skill un posto dove salvare i gusti.
